@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\bulletFlight.cs" />
      <Compile Include="Assets\Scripts\enemyDying.cs" />
      <Compile Include="Assets\Scripts\enemyMoving.cs" />
+     <Compile Include="Assets\Scripts\other.cs" />
      <Compile Include="Assets\Scripts\shooting.cs" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
