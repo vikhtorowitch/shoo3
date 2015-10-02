@@ -31,8 +31,9 @@ public class bulletFlight : MonoBehaviour {
 		// определение игрока как объект при срабатывании триггера 
 		if(other.gameObject.CompareTag("Enemy"))
 		{
-			DestroyObject(other.gameObject, 0.5f);
+			DestroyObject(this.gameObject);
 
+			DestroyObject(other.gameObject);
 
 
 			Vector3 rpos = GetComponent<Transform>().position;

@@ -14,7 +14,7 @@ public class shooting : MonoBehaviour {
 	void Update () {
 		if (Input.GetMouseButtonDown (0)) {
 			Transform BulletInstance = (Transform) Instantiate(bullet, GameObject.Find("weapon").transform.position, Quaternion.identity);
-			BulletInstance.GetComponent<Rigidbody>().AddForce(transform.forward * 5000);
+			BulletInstance.GetComponent<Rigidbody>().AddForce(transform.forward * 2000);
 
 			// ;;
 		}
