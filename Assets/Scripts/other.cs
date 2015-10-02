@@ -5,6 +5,9 @@ public class other : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+		CursorLockMode wantedMode;
+		Cursor.lockState = wantedMode = CursorLockMode.Locked;
 		Cursor.visible = false;
 	}
 	
