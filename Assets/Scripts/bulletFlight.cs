@@ -25,10 +25,6 @@ public class bulletFlight : MonoBehaviour {
 	void OnTriggerEnter (Collider other)
 	{
 
-		//Text txt = GameObject.Find ("infoPoints");
-		
-		//txt.text = "tst";
-		// определение игрока как объект при срабатывании триггера 
 		if(other.gameObject.CompareTag("Enemy"))
 		{
 			DestroyObject(this.gameObject);
