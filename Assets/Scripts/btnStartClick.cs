@@ -3,7 +3,7 @@ using System.Collections;
 
 public class btnStartClick : MonoBehaviour {
 
-	void onClick(){
+	public void OnClick(){
 		Application.LoadLevel("mainScene");
 	}
 }
