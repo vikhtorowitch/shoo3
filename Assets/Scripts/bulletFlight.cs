@@ -7,6 +7,7 @@ public class bulletFlight : MonoBehaviour {
 	public Transform enemy;
 	GameObject player;
 
+	enemyDying enemydying;
 
 	// Use this for initialization
 	void Start () {
@@ -25,6 +26,12 @@ public class bulletFlight : MonoBehaviour {
 	void OnTriggerEnter (Collider other)
 	{
 
+		enemydying = other.gameObject.GetComponent<enemyDying> ();
+		if (enemydying != null) {
+			if (!enemydying.isDead) enemydying.DieMazafaker();
+		}
+
+		/*
 		if(other.gameObject.CompareTag("Enemy"))
 		{
 			DestroyObject(this.gameObject);
@@ -36,9 +43,10 @@ public class bulletFlight : MonoBehaviour {
 			rpos.y = 0.51f;
 			rpos.x = -20 + rpos.x + Random.Range(5, 40);
 			rpos.z = -20 + rpos.z + Random.Range(5, 40);
-			Transform EnemyInstance = (Transform) Instantiate(enemy, rpos, Quaternion.identity);
+			Transform NewEnemyInstance = (Transform) Instantiate(enemy, rpos, Quaternion.identity);
 
 		}
+		*/
 	}
 
 }
