@@ -45,12 +45,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\gameplay\GlobalPrefs.cs" />
      <Compile Include="Assets\Scripts\gameplay\bulletFlight.cs" />
      <Compile Include="Assets\Scripts\gameplay\enemyDying.cs" />
      <Compile Include="Assets\Scripts\gameplay\enemyMoving.cs" />
      <Compile Include="Assets\Scripts\gameplay\shooting.cs" />
      <Compile Include="Assets\Scripts\maintenance\other.cs" />
      <Compile Include="Assets\Scripts\ui\btnStartClick.cs" />
+     <Compile Include="Assets\Scripts\ui\refreshPoints.cs" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
