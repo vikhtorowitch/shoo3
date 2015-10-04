@@ -9,18 +9,17 @@ public class bulletFlight : MonoBehaviour {
 
 	enemyDying enemydying;
 
+	private Transform bullet;
+
 	// Use this for initialization
 	void Start () {
-	
+		bullet = GetComponent<Transform> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		Vector3 pos = GetComponent<Transform> ().transform.position;
-		//pos.z -= 1f;
-		//GetComponent<Transform> ().transform.position = pos;
+		Vector3 pos = bullet.transform.position;
 		if(pos.y <= 0.1) DestroyObject(this.gameObject, 1f);
-
 	}
 
 	void OnTriggerEnter (Collider other)

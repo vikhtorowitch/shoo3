@@ -1,8 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\gameplay\GlobalPrefs.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\gameplay\enemyMoving.cs">
     <Files>
-      <File FileName="Assets\Scripts\gameplay\GlobalPrefs.cs" Line="13" Column="23" />
+      <File FileName="Assets\Scripts\gameplay\GlobalPrefs.cs" Line="14" Column="16" />
+      <File FileName="Assets\Scripts\gameplay\enemyDying.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ui\refreshPoints.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\gameplay\enemyMoving.cs" Line="35" Column="27" />
+      <File FileName="Assets\Scripts\gameplay\bulletFlight.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ui\refreshHealth.cs" Line="18" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

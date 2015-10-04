@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GlobalPrefs
+public class GlobalPrefs : MonoBehaviour
 {
 	public static GlobalPrefs Instance { get; private set; }
 
 	private int points;
 	private int health;
 
-	public void Awake()	{
+	void Awake(){
 		Instance = this;
 		points = 0;
+		health = 100;
 	}
 
 	public void makeDamage(int _hits) {
