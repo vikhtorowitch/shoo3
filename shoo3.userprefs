@@ -1,11 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ui\btnStartClick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\gameplay\enemyDying.cs">
     <Files>
       <File FileName="Assets\Scripts\gameplay\GlobalPrefs.cs" Line="25" Column="21" />
-      <File FileName="Assets\Scripts\ui\getFinScore.cs" Line="17" Column="5" />
-      <File FileName="Assets\Scripts\ui\getFinTime.cs" Line="5" Column="24" />
-      <File FileName="Assets\Scripts\ui\btnStartClick.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\gameplay\enemyDying.cs" Line="31" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

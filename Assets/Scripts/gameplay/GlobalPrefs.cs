@@ -16,6 +16,7 @@ public class GlobalPrefs : MonoBehaviour
 		points = 0;
 		health = 100;
 		lives = 3;
+		gameTime = 0;
 	}
 
 	public void makeDamage(int _hits) {
@@ -23,10 +24,11 @@ public class GlobalPrefs : MonoBehaviour
 		if (health <= 0) {
 			lives -= 1;
 			if (lives <= 0) {
-				gameTime = Time.timeSinceLevelLoad;
+				gameTime += Time.timeSinceLevelLoad;
 				Application.LoadLevel("funnish");
 			} else {
 				health = 100;
+				gameTime += Time.timeSinceLevelLoad;
 				Application.LoadLevel("mainScene");
 			}
 		}
@@ -36,6 +38,7 @@ public class GlobalPrefs : MonoBehaviour
 		points = 0;
 		health = 100;
 		lives = 3;
+		gameTime = 0;
 	}
 
 	public int getHealth() {

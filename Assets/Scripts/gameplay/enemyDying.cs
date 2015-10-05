@@ -27,8 +27,8 @@ public class enemyDying : MonoBehaviour {
 			
 			Vector3 rpos = player.position;
 			rpos.y = 0.51f;
-			rpos.x = -20 + rpos.x + Random.Range(5, 60);
-			rpos.z = -20 + rpos.z + Random.Range(5, 60);
+			rpos.x = -20 + rpos.x + Random.Range(5, 70);
+			rpos.z = -20 + rpos.z + Random.Range(5, 70);
 			Transform NewEnemyInstance = (Transform) Instantiate(spawnInstance, rpos, Quaternion.identity);
 
 		}

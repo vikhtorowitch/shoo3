@@ -18,8 +18,8 @@ public class getFinTime : MonoBehaviour {
 	}
 
 	void getPointsFromPrefs() {
-		ftime = GlobalPrefs.Instance.getPoints ();
-
-		pText.text = ftime.ToString();
+		ftime = GlobalPrefs.Instance.getTime ();
+		int intFtime = Mathf.RoundToInt(ftime);
+		pText.text = intFtime.ToString() + " seconds";
 	}
 }
