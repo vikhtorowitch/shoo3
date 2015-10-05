@@ -9,6 +9,7 @@ public class other : MonoBehaviour {
 		CursorLockMode wantedMode;
 		Cursor.lockState = wantedMode = CursorLockMode.Locked;
 		Cursor.visible = false;
+
 	}
 	
 	// Update is called once per frame
