@@ -45,6 +45,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\controls\FirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\controls\MouseLook.cs" />
      <Compile Include="Assets\Scripts\gameplay\GlobalPrefs.cs" />
      <Compile Include="Assets\Scripts\gameplay\bulletFlight.cs" />
      <Compile Include="Assets\Scripts\gameplay\enemyDying.cs" />
@@ -59,9 +61,6 @@
      <Compile Include="Assets\Scripts\ui\refreshHealth.cs" />
      <Compile Include="Assets\Scripts\ui\refreshLives.cs" />
      <Compile Include="Assets\Scripts\ui\refreshPoints.cs" />
-     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -74,10 +73,6 @@
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9AA8819A-7F72-1F66-5320-3C501A560780}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

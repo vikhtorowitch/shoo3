@@ -1,8 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{86545561-347E-ECFE-FD3D-9D26132F1665}") = "shoo3", "Assembly-CSharp-firstpass.csproj", "{9AA8819A-7F72-1F66-5320-3C501A560780}"
-EndProject
 Project("{86545561-347E-ECFE-FD3D-9D26132F1665}") = "shoo3", "Assembly-CSharp.csproj", "{49A654AA-FBF1-4327-971A-4824267CBAB9}"
 EndProject
 Project("{86545561-347E-ECFE-FD3D-9D26132F1665}") = "shoo3", "Assembly-CSharp-Editor.csproj", "{7AB85075-7000-4B45-62AB-F4727F599360}"
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9AA8819A-7F72-1F66-5320-3C501A560780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AA8819A-7F72-1F66-5320-3C501A560780}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AA8819A-7F72-1F66-5320-3C501A560780}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AA8819A-7F72-1F66-5320-3C501A560780}.Release|Any CPU.Build.0 = Release|Any CPU
 		{49A654AA-FBF1-4327-971A-4824267CBAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{49A654AA-FBF1-4327-971A-4824267CBAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49A654AA-FBF1-4327-971A-4824267CBAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																													GlobalSection(MonoDevelopProperties) = preSolution
+																																																									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
